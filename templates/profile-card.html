@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='reset.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='profile-card.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Profile Card</title>
+</head>
+
+<body>
+    <h1>Profile Card</h1>
+    <div class="profile-card shadow">
+        <div class="bg">
+            <img class="full-round" src="static/image-victor.jpg">
+        </div>
+        <p class="name">Victor Crest <span class="age">26</span></p>
+        <p>London</p>
+        <div class="details">
+            <div>
+                <p class="stat">80K</p>
+                <p>followers</p>
+            </div>
+            <div>
+                <p class="stat">803K</p>
+                <p>likes</p>
+            </div>
+            <div>
+                <p class="stat">1.4K</p>
+                <p>photos</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

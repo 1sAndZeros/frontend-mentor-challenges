@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80");
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.profile-card {
+    width: 300px;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bg {
+    background-color: aqua;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.details {
+    display: flex;
+    gap: 5px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 20px 25px 0 25px;
+    margin-bottom: 20px;
+}
+
+.details>div {
+    width: 80px;
+    text-align: center;
+}
+
+.profile-card img {
+    --img-width: 100px;
+    width: var(--img-width);
+    position: absolute;
+    top: calc(100% - (var(--img-width) / 2));
+    left: calc(50% - (var(--img-width) / 2));
+    border: 5px solid #ffffff;
+}
+
+.name,
+.stat {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.age {
+    font-weight: 400;
+}
+
+/* Utility Classes */
+
+.shadow {
+    box-shadow: 20px 20px 30px 8px rgba(0, 0, 0, 0.3);
+}
+
+.full-round {
+    border-radius: 50%;
+}
+
+
+/* Notes */
+
+/* 
+element / tag selector: e.g.    div
+class selector: e.g.            .victor
+id selector                     #victor
+*/
+
+/* 
+To chain selectors we put a space in between e.g. .victor p
+this will select the p tag inside anything with a class of victor
+*/

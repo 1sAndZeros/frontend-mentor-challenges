@@ -1,0 +1,28 @@
+:root {
+    --clr-primary: #104d35;
+}
+
+body {
+    background: #0d0d0d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.projects-container {
+    display: flex;
+    max-width: 1000px;
+    background-color: var(--clr-primary);
+}
+
+.project {
+    max-width: 300px;
+}
